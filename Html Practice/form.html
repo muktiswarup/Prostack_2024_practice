@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+        <center>Registration Form</center><br>
+        <fieldset>
+            <legend>Registration Form of Students</legend><br>
+       <label for="fname">First Name*</label>
+       <input type="text" id="fname" required placeholder="Enter your First Name">
+       <label for="lname">Last Name*</label>
+       <input type="text" name="" id="lname" placeholder="Enter your Last Name" maxlength="10"><br><br>
+       <label for="email">Email*</label>
+       <input type="email" name="" id="email" required>
+       <label for="password">Password*</label>
+       <input type="password" name="" id="password" required min="10"><br><br>
+       <label for="address">Adress</label>
+       <textarea name="address" id="address" rows="1" cols="30"></textarea><br><br>
+       <label for="ph">Phone Number</label>
+       <input type="tel" id="ph" pattern="[6789][0-9]{9}" required placeholder="Enter 10 digit phone no."><br> <br>
+       <label for="date"> Date Of Birth </label>
+       <input type="date" id="date">
+       <p>Gender</p>
+       <label for="Male">Male</label>
+       <input type="radio" name="gender" value="Male">
+       <label for="Female">Female</label>
+       <input type="radio" name="gender" value="Female">
+       <label for="Other">Other</label>
+       <input type="radio" name="gender" value="Other"><br><br>
+       <label for="country">Country</label>
+       <input type="text" id="country" value="India" readonly disabled><br><br>
+       <label for="state">State</label>
+       <select name="state" id="states">
+        <option value="Odisha">Odisha</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Andrapradesh">Andrapradesh</option>
+        <option value="Tamilnadu">Tamilnadu</option>
+       </select><br><br>
+    </fieldset>
+        <center>
+            <input type="reset">
+            <input type="submit">
+        </center>
+       
+       
+
+    </form><br><br><br><br>
+</body>
+</html>
