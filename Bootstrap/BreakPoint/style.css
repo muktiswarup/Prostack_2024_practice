@@ -1,0 +1,28 @@
+/* .container{
+    border: 10px solid blue;
+}
+.container-fluid{
+    border: 10px solid rgb(223, 9, 44);
+} */
+ .container{
+    border: 10px solid green;
+    margin-top: 2rem;
+ }
+
+.box-1{
+    min-height: 200px;
+    background-color: blue;
+}
+.box-2{
+    min-height: 200px;
+    background-color:rgb(228, 22, 56);
+}
+.box-3{
+    min-height: 200px;
+    background-color: maroon;
+}
+.box-4{
+    min-height: 200px;
+    background-color: black;
+    color: white;
+}
