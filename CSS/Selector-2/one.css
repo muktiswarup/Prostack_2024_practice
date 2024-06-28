@@ -1,0 +1,12 @@
+a{
+    background-color: red;
+}
+a[target]{
+    background-color: yellow;
+}
+/* .abc{
+    background-color: yellow;
+}
+*{
+    background-color: yellow;
+} */
