@@ -4,5 +4,5 @@ new Promise(function(resolve,reject){
     },2000)
 })
 .then(function(user){
-    console.log(user.userName)
+    console.log(user)
 })
