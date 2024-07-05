@@ -1,0 +1,2 @@
+write a program that given the no is 3digit is not ..
+
