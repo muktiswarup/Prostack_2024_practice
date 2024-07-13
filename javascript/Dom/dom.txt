@@ -1,3 +1,0 @@
-dom simply represents the html doument, which gets loaded in the browser.This html document will have elemnt like paragraphs,hyperlink,button,input elements..
-Every tags object will be  created in dom.
-leaf node represent either attribut of the element and text of the element in dom...shakti swarup jena 

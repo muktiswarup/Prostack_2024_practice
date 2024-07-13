@@ -237,7 +237,12 @@ let users= [
     } 
 
   }
-  
+  for (user of users){
+    if(user.username == bret){
+        console.log(user.website)
+    } 
+
+  }
   
 
  
