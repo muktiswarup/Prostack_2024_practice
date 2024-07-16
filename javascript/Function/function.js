@@ -151,12 +151,17 @@ displayGreeting(user2); */
 
 
 
-const teamMembers = ["Ajith", "Vaishnavi", "Nilopher", "Ritika", "Shristi", "Manjunath"];
-const newTeamMember = "Peter";
-const displayTotalCount=(arrayOfString,stringElementAdded)=>{
-    console.log(arrayOfString.push(stringElementAdded));
-    console.log(arrayOfString);
-    console.log(stringElementAdded);
+// const teamMembers = ["Ajith", "Vaishnavi", "Nilopher", "Ritika", "Shristi", "Manjunath"];
+// const newTeamMember = "Peter";
+// const displayTotalCount=(arrayOfString,stringElementAdded)=>{
+//     console.log(arrayOfString.push(stringElementAdded));
+//     console.log(arrayOfString);
+//     console.log(stringElementAdded);
+// }
+// displayTotalCount(teamMembers, newTeamMember);
+
+const nor= ()=>{
+  console.log(this)
 }
-displayTotalCount(teamMembers, newTeamMember);
+nor();
 
