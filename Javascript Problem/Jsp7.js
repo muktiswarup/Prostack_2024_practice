@@ -1,0 +1,1 @@
+let paragraph= document.getElementsByClassName('para').textContent="Hi this is "
