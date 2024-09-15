@@ -1,1 +1,1 @@
-console.table(car)
+return date;
