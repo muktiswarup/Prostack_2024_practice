@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      let arr = [];
+      let currentSize = arr.length;
+      let max = 5;
+
+      function display() {
+        for (let i = 0; i < arr.length; i++) {
+          console.log(arr[i]);
+        }
+      }
+      display();
+
+      function push() {
+        let newEle=document.getElementById('stack').value;
+        if (currentSize <= max) {
+          arr[currentSize] = newEle;
+          currentSize += 1;
+        } else {
+          console.warn("maxium pushed ");
+        }
+      }
+      function pop(){
+    currentSize -=1;
+   arr.length=currentSize;
+ }
+    </script>
+  </head>
+  <body>
+    <input type="text" id="stack" />
+    <button onclick="push()">Push</button>
+    <button onclick="pop()">Pop</button>
+    <button onclick="display()">Display</button>
+  </body>
+</html>
