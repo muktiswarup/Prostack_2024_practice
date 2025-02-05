@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Traverse</title>
+    <script>
+        let data=[45,55,65,75,85,95,5,15,25,35];
+        for (let i=0;i<data.length;i++){
+            document.write(`The ${i} element is ${data[i]} </br>`);
+        }
+        function trav(){
+            let n=parseInt(document.getElementById('element').value);
+            if(data.length<n || isNaN(n)){
+                alert("Invalid")
+            }else{
+                
+                alert(`You clicked ${data[n]}`)
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="element">
+    <button onclick="trav()">Click</button>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <script>
+     let data = [1,2,3,4,5,6,7,8,9,10];
+    for (let i =0;i<data.length;i++){
+        // document.write(`The ${i} element is ${data[i]} </br>`);
+    }
+    function trav(){
+        let n =document.getElementById('element').value;
+        if(data.length<n || isNaN(n)){
+            alert("Invalid input")
+        }else{
+            alert(`You clicked ${data[n]}`);
+        }
+    }
+   </script>
+</head>
+<body>
+    <input type="text" id="element">
+    <button onclick="trav()">Click</button>
+</body>
+</html>

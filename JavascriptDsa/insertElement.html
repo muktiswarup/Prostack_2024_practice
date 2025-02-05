@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsertElement</title>
+    <script>
+        function insertele(){
+            let data = [1,2,3,4,5,6,7,8,9];
+            console.log(data);
+            let position= document.getElementById('element1').value;
+            let element= parseInt(document.getElementById('element2').value);
+            if(position >data.length || isNaN(position) || isNaN(element)){
+                alert("Invalid input")
+            }else{
+            
+            for (let i=data.length-1;i>=position;i--){
+                data[i+1]=data[i];
+                if(i==position){
+                    data[i]=element;
+                }
+            }
+            console.log(data);
+        }
+        }
+        
+
+    </script>
+</head>
+<body>
+    <input type="text" id="element1" placeholder="Enter the position">
+    <input type="text" id="element2" placeholder="Enter the element">
+    <button onclick="insertele()">ClickHere</button>
+</body>
+</html>
